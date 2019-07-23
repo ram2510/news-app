@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import SplashScreen from './Views/SplashScreen'
-import Category from './Views/CategoryScrren'
+import Category from './Views/CategoryScreen'
 import NewsView from './Views/NewsViews'
 import SearchScreen from './Views/SearchScreen'
 

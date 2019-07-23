@@ -8,13 +8,13 @@ export default class News{
     let url
     switch (newsType) {
       case "Bitcoin":
-        url = "https://newsapi.org/v2/everything?q=bitcoin&from=2019-06-23&sortBy=publishedAt&apiKey=5d233b26e1e241938a2edea95d22b34a"
+        url = "https://newsapi.org/v2/everything?q=bitcoin&from=2019-06-23&sortBy=publishedAt&apiKey=*************"
         break;
       case "Us News":
-        url = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=5d233b26e1e241938a2edea95d22b34a"
+        url = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey==*************"
         break;
       default:
-        url = "https://newsapi.org/v2/everything?q=apple&from=2019-07-22&to=2019-07-22&sortBy=popularity&apiKey=5d233b26e1e241938a2edea95d22b34a"
+        url = "https://newsapi.org/v2/everything?q=apple&from=2019-07-22&to=2019-07-22&sortBy=popularity&apiKey==*************"
         break;
     }
     try {

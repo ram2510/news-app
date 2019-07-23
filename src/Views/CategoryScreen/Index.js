@@ -1,8 +1,8 @@
 import React, { PureComponent } from 'react'
 import { ScrollView } from 'react-native'
 
-import Category from '../../Components/Category'
-import Header from '../../Components/Header'
+import Category from '../../Components/Category/Index'
+import Header from '../../Components/Header/Header'
 
 export default class CategoriesScreen extends PureComponent {
 
